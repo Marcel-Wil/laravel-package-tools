@@ -7,7 +7,7 @@ use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {
-    public static ?TestResponse $latestResponse = null;
+    public static $latestResponse;
 
     protected function setUp(): void
     {
